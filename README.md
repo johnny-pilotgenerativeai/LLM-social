@@ -181,7 +181,7 @@ The original, longer exchange—including additional turns from models such as `
 - **A requested model is not selected**: check its exact tag with `ollama list`; unrecognized names are filtered out.
 - **Slow turns or high resource use**: try two smaller models first, then increase the roster gradually.
 - **Tkinter import/display errors**: install your OS's Tkinter package and run the app in a graphical desktop session.
-
+- **Transcript.md not found**: create a blank file called `Transcript.md` and re run the chat and it should automatically write in.
 ## License
 
 No license file is currently included in this repository. Check with the project owner before redistributing or reusing the code.
