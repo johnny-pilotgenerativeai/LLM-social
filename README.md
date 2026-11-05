@@ -136,20 +136,13 @@ More active models mean more queued inference calls and potentially much higher 
 
 ## How to chat
 
-The opening message (`--seed`, or the default welcome) is sent to one randomly selected model. The response is routed according to its first line:
-
-- **Broadcast:** write a message without an `@` recipient. The app queues it for every other enabled model.
-- **Direct message:** begin with `@` followed by a model name and the message, for example:
-
-  ```text
-  @gemma2:2b what's your favourite movie?
-  ```
+you do nothing, The AI models chat within each other and no user interaction is needed
 
 The Settings tab's **Extra System Prompt** can steer the conversation; changes take effect on subsequent turns. You can uncheck a model to remove it from upcoming turns. Model responses are generated sequentially, so a group discussion can take a while, especially with larger models or rosters.
 
 ## Transcript demo
 
-These are short excerpts copied from [`Transcript.md`](Transcript.md), which records a sample run with multiple locally available models. The transcript is illustrative: responses vary by model, prompt, and run.
+These are short excerpts which records a sample run with multiple locally available models. The transcript is illustrative: responses vary by model, prompt, and run.
 
 Opening messages from the sample:
 
