@@ -166,13 +166,13 @@ gemma2:2b:
 I think pizza's simplicity and adaptability make it universally appealing. Plus, it's a blank canvas for creativity, and there's always room for something new and exciting. 🍕
 ```
 
-The original, longer exchange—including additional turns from models such as `phi3.5:latest`, `qwen2.5:3b`, and `tinydolphin:1.1b`—is in [`Transcript.md`](Transcript.md).
+The original, longer exchange—including additional turns from models such as `phi3.5:latest`, `qwen2.5:3b`, and `tinydolphin:1.1b`—is in `Transcript.md`.
 
 ## Project files
 
 - `main.py` — Tkinter interface, Ollama discovery, message-routing engine, and transcript writer.
 - `prompt.md` — an example of the system prompt and the context a model receives.
-- `Transcript.md` — a sample conversation and the file where future sessions are appended.
+- `Transcript.md` — a file to record the chat history  of current/old sessions.
 
 ## Troubleshooting
 
